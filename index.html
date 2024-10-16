@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="nav-bar" class="navbar">
+        <img src="Pictures/logo.svg" alt="logo" id="header-img" />
+        <div class="navbar-right">
+          <ul>
+            <li class="nav-link">HOME</li>
+            <li class="nav-link">ABOUT</li>
+            <li class="nav-link">SHOP</li>
+            <li class="nav-link">CONTACT</li>
+          </ul>
+        </div>
+        <div class="navbar-account">
+          <ul>
+            <li>
+              <span class="material-icons"> shopping_bag </span>
+            </li>
+            <li><span class="material-icons"> person </span></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="product-landing">
+        <div class="left-section"></div>
+        <div class="right-section">
+          <ul>
+            <li>Home /</li>
+            <li>Jewellery /</li>
+            <li>Necklace</li>
+          </ul>
+          <h3>Jewellery</h3>
+          <h1>Flower of Life Necklace</h1>
+          <p class="price">$35.99</p>
+
+          <p class="product-description">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+            dolorum quia exercitationem eum ullam corrupti eaque harum esse
+            consequuntur nisi iusto minima quas commodi neque magnam earum,
+            veritatis eligendi natus?
+          </p>
+          <div class="quantity-cart">
+            <input type="number" placeholder="1" max="3" min="1" />
+            <button>ADD TO CART</button>
+          </div>
+          <div class="underline"></div>
+          <p class="bottom-product">Category: <span>Necklace</span></p>
+        </div>
+      </div>
+
+      <div class="underline"></div>
+      <section id="related-products">
+        <h1>Related Products</h1>
+        <div class="product-container">
+          <div class="product1">
+            <img src="Pictures/Product1.jpeg" />
+            <p>Necklace</p>
+            <h4>Godess chocker</h4>
+            <p class="product-price">$95.00</p>
+          </div>
+          <div class="product2">
+            <img src="Pictures/Product2.jpeg" />
+            <p>Necklace</p>
+            <h4>Tigers Eye</h4>
+            <p class="product-price">$34.99</p>
+          </div>
+          <div class="product3">
+            <img src="Pictures/Product3.jpeg" />
+            <p>Necklace</p>
+            <h4>Labrodorite</h4>
+            <p class="product-price">$38.00</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="left-section">
+          <h1>Get a custom piece</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+            corrupti tempore. Tempore architecto recusandae perspiciatis
+            inventore! Corrupti, voluptatum officia asperiores cumque eveniet
+            consequuntur quia non hic omnis doloremque, amet esse.
+          </p>
+          <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Full name" id="name" />
+
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email address" id="email" />
+
+            <label for="message">What would you like?</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              cols="50"
+              placeholder="Enter your message here..."
+            ></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+        <div class="right-section"></div>
+      </section>
+
+      <section id="footer">
+        <p>&copy; 2024 Organic Jewellery. All rights reserved.</p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
