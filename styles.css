@@ -58,12 +58,6 @@
   color: black;
 }
 
-.toggle-button {
-  cursor: pointer;
-  font-size: 24px; /* Adjust size as needed */
-  display: none; /* Hide by default */
-}
-
 /* Product Feature */
 
 .product-landing {
